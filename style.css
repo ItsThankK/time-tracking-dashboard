@@ -1,0 +1,48 @@
+:root {
+  /* Colors */
+  --clr-primary-purple: hsl(246, 80%, 60%);
+
+  --clr-orange-work: hsl(15, 100%, 70%);
+  --clr-blue-play: hsl(195, 74%, 62%);
+  --clr-pink-study: hsl(348, 100%, 68%);
+  --clr-green-exercise: hsl(145, 58%, 55%);
+  --clr-purple-social: hsl(264, 64%, 52%);
+  --clr-yellow-selfcare: hsl(43, 84%, 65%);
+
+  --clr-neutral-navy-200: hsl(236, 100%, 87%);
+  --clr-neutral-navy-900: hsl(235, 46%, 20%);
+  --clr-neutral-navy-950: hsl(226, 43%, 10%);
+  --clr-neutral-purple: hsl(235, 45%, 61%);
+
+  /* Font */
+  --ff-rubik: "Rubik", sans-serif;
+  /* - Font size: 18px (card titles e.g. Work, Play) */
+  --fw-small: 300;
+  --fw-medium: 400;
+  --fw-large: 500;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-rubik);
+  font-weight: var(--fw-small);
+  font-size: 1.6rem;
+  background-color: var(--clr-neutral-navy-950);
+  color: var(--clr-neutral-navy-200);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
